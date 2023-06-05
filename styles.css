@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Lobster&family=Open+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    /*background-color: #FFEBC2;*/
+    background-image: linear-gradient(to bottom, #ffebc2, #ffde9d, #ffd177, #ffc350, #ffb41f);
+    height: 100vh;
+    overflow: hidden;
+}
+h1 {
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    letter-spacing: 8px;
+    font-size: 50px;
+}
+.quote {
+    font-family: 'Lobster', cursive;
+    font-size: 22px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+    
+}
+.item1 p, .item2 p, .item3 p {
+    text-align: center;
+    font-family: 'Caveat', cursive;
+    font-size: 32px;
+    letter-spacing: 5px;
+}
+img {
+    border-radius: 35px;
+}
+img:hover {
+    animation: scale-animation 1s linear infinite alternate;
+    cursor: pointer;
+}
+@keyframes scale-animation {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(1.1);
+    }
+  }
