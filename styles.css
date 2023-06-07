@@ -9,7 +9,6 @@ body {
     /*background-color: #FFEBC2;*/
     background-image: linear-gradient(to bottom, #ffebc2, #ffde9d, #ffd177, #ffc350, #ffb41f);
     height: 100vh;
-    overflow: hidden;
 }
 h1 {
     font-family: 'Lobster', cursive;
